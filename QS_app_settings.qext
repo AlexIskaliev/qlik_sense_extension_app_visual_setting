@@ -1,0 +1,23 @@
+{
+    "name": "App Visual Settings v1.1.0",
+    "description": "Настройки внешнего облика приложения",
+	 "icon": "lui-icon lui-icon--cogwheel",
+    "type": "visualization",
+    "preview": "jsamurai.png",
+    "version": "1.1.0",
+    "bundle": {
+        "id": "",
+        "name": "",
+        "description": ""
+    },
+    "author": "Iskaliev Alex. JSamurai",
+    "homepage": "",
+    "email": "iskaliev.alex@outlook.com",
+    "keywords": "qlik-sense, visualization",
+    "license": "2021 JSamurai",
+    "tc": "",
+    "repository": "",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+    }
+}

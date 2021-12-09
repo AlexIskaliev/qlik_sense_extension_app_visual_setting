@@ -1,0 +1,117 @@
+.hide {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
+
+@font-face {
+	font-family: RobotoBlack;
+	font-display: swap;
+	src: url("../fonts/Roboto-Black.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoBlackItalic;
+	font-display: swap;
+	src: url("../fonts/Roboto-BlackItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoBold;
+	font-display: swap;
+	src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoBoldItalic;
+	font-display: swap;
+	src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoItalic;
+	font-display: swap;
+	src: url("../fonts/Roboto-Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoLight;
+	font-display: swap;
+	src: url("../fonts/Roboto-Light.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoLightItalic;
+	font-display: swap;
+	src: url("../fonts/Roboto-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoMedium;
+	font-display: swap;
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoMediumItalic;
+	font-display: swap;
+	src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoRegular;
+	font-display: swap;
+	src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoThin;
+	font-display: swap;
+	src: url("../fonts/Roboto-Thin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: RobotoThinItalic;
+	font-display: swap;
+	src: url("./Roboto-ThinItalic.woff2") format("woff2");
+}
+
+.qv-mode-edit .sheet-grid :not(.library-dragging)#grid .qv-gridcell.active {
+	border: 2px solid #ef161f !important;
+}
+
+.qv-gridresize-point .visual-cue {
+	background: #ef161f !important;
+}
+
+.qv-object .qvt-visualization-subtitle {
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+	text-overflow: ellipsis !important;
+}
+
+.qv-object .qv-object-title .qv-object-title-text,
+.qv-inline-edit-value,
+.qv-object-filterpane .qv-object-listbox .add-content .add-text {
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+	text-overflow: ellipsis !important;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .qv-object .qv-footer-wrapper,
+.qv-client.qv-card .qv-story-sheet .sheet-container #grid .qv-object .qv-footer-wrapper {
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+	text-overflow: ellipsis !important;
+}
+
+.qv-object .qv-object-footnote {
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+	text-overflow: ellipsis !important;
+}

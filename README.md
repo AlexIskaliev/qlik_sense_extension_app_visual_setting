@@ -1,0 +1,1 @@
+# App visual setting extension for Qlik Sense
